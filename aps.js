@@ -34,8 +34,7 @@ function decrement() {
     else {
         display.textContent="O";
     }
-
-
+    
 }
 
 function reset() {
