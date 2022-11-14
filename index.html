@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>DOM CheckPoint</title>
+</head>
+<body>
+<div class="container ">
+    <div class="row">
+        <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1  d-none d-md-block  "> </div>
+        <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-12">
+            <h1 id="headertitle">choose your product now</h1>
+            <div class="shopbox">
+
+                <div class="shopitems">
+
+                   <div class="itempic">
+
+                       <img src="assert/images/ps5.jpg" alt="">
+                       <div class="counter">
+                           <i class="fa-solid fa-plus btn plus" id="increment"></i>
+                           <div class="count"><span class="counter-preview">0</span></div>
+                           <i class="fa-solid fa-minus btn mines" id="decrement"></i>
+                       </div>
+
+                   </div>
+
+                    <div class="iteminfo">
+                        <h1>PlayStation 5</h1>
+                        <p>About this item<br>
+                            PlayStation 5 with Blu-ray player. A revolutionary fully centered console
+                            on the player for even more immersive and connected experiences
+                            with your backward compatible PS5 and PS4 games
+                        </p>
+                    </div>
+
+                    <div class="itemprice">
+
+                        <div class="item1">
+                            <div class="price">Price</div>
+                            <div class="amount">$499.99</div>
+                        </div>
+
+                        <div class="item2">
+                            <div class="totalprice">Total <span id="totalfacture"></span></div>
+                            <div class="remove" id="reset">Remove All</div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+        <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1  d-none d-md-block  "> </div>
+    </div>
+
+
+</div>
+<script src="aps.js"></script>
+</body>
+</html>

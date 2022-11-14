@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+#headertitle{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #aad4ed, #2a6edc);
+    color: transparent;
+
+    -webkit-background-clip: text;
+}
+.shopbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.shopitems{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 25px 40px #1687d933;
+    padding: 20px 20px;
+}
+.shopitems img{
+    width: 150px;
+    height: 200Px;
+}
+.counter{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    background-color: #82bfe8;
+    border-radius: 50%;
+
+    font-size: 16px;
+    color: #ffffff;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #aad4ed;
+    border-radius: 50%;
+    transition: 0.3s linear all;
+}
+.count{
+    font-size: 1.6rem;
+    color: #202020;
+}
+
+.iteminfo{
+    padding: 0 20px 20px 20px;
+
+}
+
+.itemprice{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.item2{
+    padding-top: 110px;
+}
+.amount{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #202020;
+}
+.price{
+
+    font-size: 1rem;
+    font-weight: 800;
+    color: #202020;
+}
+
+.remove{
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fb4646;
+    cursor: pointer;
+    text-align: inherit;
+}
+.remove:hover{
+    text-decoration: underline;
+}
